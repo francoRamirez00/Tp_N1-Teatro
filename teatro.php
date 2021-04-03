@@ -75,7 +75,7 @@ class Teatro{
     // funcion para cambiar el nombre de la funcion
     public function cambiar_nom_Funcion($posicion , $nuevoNombre_funcion){
 
-//$nombreDeLaFuncion = $this->funciones_Teatro ;
+
     
             
                 if ($posicion >= 0 && $posicion <4) {
@@ -84,7 +84,7 @@ class Teatro{
                   
                 }else {
                     
-                   // $this->funciones_Teatro[$posicion]["nombre"] = $nuevoNombre_funcion ;
+                   
                     $existe = false ;
                 }
           
