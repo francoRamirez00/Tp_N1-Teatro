@@ -2,10 +2,7 @@
 include_once 'teatro.php' ;
 
 
-/* echo "ingrese nombre del teatro : " ;
-$nombreTeatro = trim(fgets(STDIN));
-echo "ingrese direccion del teatro : ". "\n" ;
-$direccionTeatro = trim(fgets(STDIN)) ; */
+
 $datos= new Teatro("san", "calle 1") ;
 
  do {
@@ -80,7 +77,7 @@ $datos= new Teatro("san", "calle 1") ;
                 if ($validez) {
                     echo "El precio fue actualizado exitosamente ". "\n" ;
                 }else {
-                    echo "numero de la posicion ingresado incorrecto" ;
+                    echo "numero de la posicion ingresado incorrecto". "\n" ;
 }           
                     echo "saliendo al menu . . ." . "\n";
     
@@ -100,10 +97,6 @@ $datos= new Teatro("san", "calle 1") ;
 
         break;
     }
-    
-    
-    
-    
     
     
 } while ($eleccion < 6 ); 
