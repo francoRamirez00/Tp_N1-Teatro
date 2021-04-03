@@ -23,9 +23,7 @@ class Teatro{
             $funciones_Teatro[3]=array(
                                             "nombre" => ["nombre_F3"],"precio" => [300] );
             
-        
     
-
             
     }
 
@@ -110,7 +108,7 @@ class Teatro{
           
         }else {
             
-           // $this->funciones_Teatro[$posicion]["nombre"] = $nuevoNombre_funcion ;
+           
             $existe = false ;
         }
   
